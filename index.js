@@ -20,6 +20,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 };
 
 const program = new Command();
+
 program
   .option("-a, --action <type>", "choose action")
   .option("-i, --id <type>", "user id")

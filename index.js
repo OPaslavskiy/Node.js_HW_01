@@ -7,7 +7,11 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
     case "read":
       const allContacts = await contacts.listContacts();
       return console.log(allContacts);
+    case "getById":
+      const contactById = await contacts.getContactById(id);
+      return console.log(contactById);
   }
 };
 
-invokeAction({ action: "read" });
+// invokeAction({ action: "read" });
+invokeAction({ action: "getById", id: "qdggE76Jtbfd9eWJHrssH" });

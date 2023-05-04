@@ -8,8 +8,10 @@ async function listContacts() {
   return JSON.parse(data);
 }
 
-function getContactById(contactId) {
-  // ...твій код
+async function getContactById(contactId) {
+  const contacts = await listContacts();
+  const results = contacts.find((item) => item.id === contactId);
+  return results || null;
 }
 
 function removeContact(contactId) {

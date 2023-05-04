@@ -15,6 +15,7 @@
     "nodemon": "^2.0.22"
   },
   "dependencies": {
+    "comander": "^0.0.1-security",
     "nanoid": "3.3.4"
   }
 }

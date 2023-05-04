@@ -55,6 +55,11 @@ chokidar@^3.5.2:
   optionalDependencies:
     fsevents "~2.3.2"
 
+comander@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.yarnpkg.com/comander/-/comander-0.0.1-security.tgz#13e2d1c9b7ab0ffe37c3b6ece671c9e3a0541f9d"
+  integrity sha512-cxCGvHkaEtEsBsKjz8XrAiaOIkecgmMvhetsaxQYt35e8MEW4ATPevJTrzOrpAd1NyWmgIpLrwPLhQoHvnj89w==
+
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"

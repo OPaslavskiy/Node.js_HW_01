@@ -55,10 +55,10 @@ chokidar@^3.5.2:
   optionalDependencies:
     fsevents "~2.3.2"
 
-comander@^0.0.1-security:
-  version "0.0.1-security"
-  resolved "https://registry.yarnpkg.com/comander/-/comander-0.0.1-security.tgz#13e2d1c9b7ab0ffe37c3b6ece671c9e3a0541f9d"
-  integrity sha512-cxCGvHkaEtEsBsKjz8XrAiaOIkecgmMvhetsaxQYt35e8MEW4ATPevJTrzOrpAd1NyWmgIpLrwPLhQoHvnj89w==
+commander@^10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-10.0.1.tgz#881ee46b4f77d1c1dccc5823433aa39b022cbe06"
+  integrity sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==
 
 concat-map@0.0.1:
   version "0.0.1"
